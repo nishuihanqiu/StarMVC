@@ -3,6 +3,9 @@ plugins {
     id 'application'
 }
 
+group = 'com.liliangshan'
+version = '0.0.1'
+
 repositories {
     maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
     jcenter()
