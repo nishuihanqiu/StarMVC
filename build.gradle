@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.liliangshan'
-version = '0.0.1'
+version = '1.0.0'
 
 repositories {
     maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
@@ -13,14 +13,14 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.guava:guava:28.0-jre'
-    compile 'log4j:log4j:1.2.17'
-    compile 'org.slf4j:slf4j-api:1.7.25'
-    compile 'org.slf4j:slf4j-log4j12:1.7.25'
-    compile 'org.apache.tomcat.embed:tomcat-embed-core:9.0.31'
-    compile 'org.apache.commons:commons-lang3:3.9'
-    compile 'com.alibaba:fastjson:1.1.30'
-    compile 'org.freemarker:freemarker:2.3.30'
+    implementation 'com.google.guava:guava:28.0-jre'
+    implementation 'log4j:log4j:1.2.17'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'org.slf4j:slf4j-log4j12:1.7.25'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-core:9.0.31'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'com.alibaba:fastjson:1.1.30'
+    implementation 'org.freemarker:freemarker:2.3.30'
 
 
     testImplementation 'junit:junit:4.12'

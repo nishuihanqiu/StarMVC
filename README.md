@@ -1,6 +1,7 @@
 # StarMVC -- Java Web MVC Framework 
 可以直接启动使用，无需任何web xml配置文件
 
+## 功能点
 * 实现IOC容器
 * 实现 Web MVC 框架逻辑 
 * 实现嵌入式启动 tomcat http server
